@@ -1,7 +1,7 @@
 console.log("greetings noob");
 
 
-window.alert("this is used for a popup window");
+//window.alert("this is used for a popup window");
 /* comment
 
 
@@ -81,7 +81,7 @@ radius = window.prompt("enter the radius ");
 radius= Number(radius);
 circumference=2*PI*radius;
 console.log("the cirumference is:",circumference);
-*/
+
 
 ///////////////////MATH/////////////////////////////////////
 let x = 3.1;
@@ -94,5 +94,14 @@ x =Math.pow(x,2);     //cmon bruh its power
 let maximum;
 maximum=Math.max(x,y,w) // picks the maximum
 console.log(x);
+*/
 
 
+///////////String properties///////
+let name="aymen   essid";
+//name=name.trim(); removes spaces before and after the string
+name=name.toUpperCase();
+length=name.length;
+console.log(name.charAt(1)); //returns the chat in that specific position;
+console.log(name.indexOf("E")); //returns the first position of the indicated char
+console.log(name.lastIndexOf("E")); //returns the last position of the given char
