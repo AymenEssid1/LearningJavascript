@@ -94,7 +94,7 @@ x =Math.pow(x,2);     //cmon bruh its power
 let maximum;
 maximum=Math.max(x,y,w) // picks the maximum
 console.log(x);
-*/
+
 
 
 ///////////String properties///////
@@ -105,3 +105,38 @@ length=name.length;
 console.log(name.charAt(1)); //returns the chat in that specific position;
 console.log(name.indexOf("E")); //returns the first position of the indicated char
 console.log(name.lastIndexOf("E")); //returns the last position of the given char
+
+let phonenb="123-456-789"
+phonenb=phonenb.replaceAll("-",","); //well duh it replaces certain chars with others
+console.log(phonenb);
+
+
+
+
+
+////////////////////////////sttring slicing/////////////////////////
+let fullname="aymenn essidd";
+let firstname;
+let lastname;
+lastname=fullname.slice(fullname.indexOf(" ")+1);  // slice does not change the variable fullname it creates a new string
+firstname=fullname.slice(0,fullname.indexOf(" "));
+console.log(lastname);
+console.log(firstname);
+
+
+
+
+/////////////////////method chaining//////////////////////////
+
+let name="aymen";
+console.log(name.charAt(0).toUpperCase());
+
+//////////////////////////  IF statement  //////////////////
+let age=22;
+if(age>=18){console.log("life is getting hard from this point on");}
+else{console.log("enjoy your childhood while you can ");}  //else if()
+
+let online=false;
+if(!online){console.log("you are offline");} //if(online) if u want to check if it's true
+
+ */
