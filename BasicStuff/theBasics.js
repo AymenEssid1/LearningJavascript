@@ -106,6 +106,9 @@ console.log(name.charAt(1)); //returns the chat in that specific position;
 console.log(name.indexOf("E")); //returns the first position of the indicated char
 console.log(name.lastIndexOf("E")); //returns the last position of the given char
 
+let nameee="aymen-essid"
+nameee.split("-");===>["aymen","essid"]
+
 let phonenb="123-456-789"
 phonenb=phonenb.replaceAll("-",","); //well duh it replaces certain chars with others
 console.log(phonenb);

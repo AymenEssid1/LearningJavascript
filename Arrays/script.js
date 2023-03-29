@@ -124,3 +124,43 @@ function print(element){
     console.log(element);
 }
 */
+/////////////////////array.filter()/////////////////////
+//creates a new array with the filtred elements of the original array
+/*
+let ages =[10,18,21,8,99]
+let adults = ages.filter(checkages);
+adults.forEach(print);
+function checkages(element){
+    return element>=18 ;
+
+}
+function print(element){
+    console.log(element);
+}*/
+/////////////////////////////////////array.reduce()/////////////////////////////////
+//array.reduce() = reduces an array to a single value
+/*let prices = [5, 10, 15, 20, 25, 30];
+let total = prices.reduce (checkOut);
+console.log(`The total is: $${total}`);
+function checkOut (total, element){
+return total + element;
+}*/
+//////////////////////////////////////array.sort()///////////////////
+/* let grades = [100, 50, 90, 60, 80, 70];
+grades = grades.sort (descendingSort);
+grades.forEach(print);
+function descendingSort(x, y){
+return y - x;
+}
+function print (element) {
+console.log(element);
+} */
+/*
+This code defines an array of grades with six elements, 
+then applies a sort function to the array. 
+It uses the descendingSort function as the sorting criterion. 
+The descendingSort function returns a value that is either positive, negative or zero,
+based on the relative sizes of x and y. If y is bigger than x, then y - x will be positive.
+This will cause y to move up the order, relative to x. 
+Thus, the sort function will reorder the array of grades such that the highest grade is first in the array and the lowest grade is last.
+*/
