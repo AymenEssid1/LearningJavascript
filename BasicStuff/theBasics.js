@@ -276,7 +276,7 @@ document.getElementById("templateliterals").innerHTML=text;
 // so basically their only use is when you have to output a long text with variables
 //it makes it a bit easier to type 🙃
 
-/////////////////////////format currency////////////////////////////////////////
+/////////////////////////toLocaleString////////////////////////////////////////
 let mynum = 100;
 //options are not necessary
 mynum=mynum.toLocaleString("en-US",{style:"currency", currency:"USD"}); //==> $100.00

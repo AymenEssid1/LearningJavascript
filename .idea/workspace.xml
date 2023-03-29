@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f127b31a-649e-438a-9142-0fda0e2dceed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/javascript.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicStuff/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicStuff/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicStuff/theBasics.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicStuff/theBasics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +35,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2JAqTwua7VfFSR26GBCxOWUYX7P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +55,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.JavaScript",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +76,7 @@
       <workItem from="1671533955597" duration="3000" />
       <workItem from="1671617301546" duration="7286000" />
       <workItem from="1675700887108" duration="1975000" />
-      <workItem from="1675773528774" duration="12287000" />
+      <workItem from="1675773528774" duration="18429000" />
     </task>
     <servers />
   </component>
