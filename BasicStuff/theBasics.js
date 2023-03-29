@@ -284,4 +284,20 @@ mynum=mynum.toLocaleString(undefined,{style:"percent"});//==>10,000%
 mynum=mynum.toLocaleString(undefined,{style:"unit",unit:"celsius"});//==>100°C
 console.log(mynum);
 */
-//////////////////////////////////
+
+
+//////////////////////////////////CALLBACKS/////////////////////////////////
+/*
+// callback is a function that is passed as a parameter to another function
+
+//usefull when we want a function to wait for another such as loading a file 
+sum(2,1,displayOutput);
+
+function sum(x , y , callback){
+    let result =x+y;
+    callback(result);
+}
+function displayOutput(output){
+    console.log(output);
+}*/
+////////////////////////////////////////
